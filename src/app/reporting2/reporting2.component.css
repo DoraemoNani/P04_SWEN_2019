@@ -1,0 +1,40 @@
+#btnbtnbtn{
+    text-align: center;
+    margin-left: 500px;
+   
+}
+#btnstuffs{
+    text-align: center;
+    margin-top:80px;
+    background-color: lightblue;
+    color:black;
+    border: 2px solid black;
+    margin-right: 600px;
+
+}
+.btn-group button {
+    background-color:grey; /* Green background */
+    border: 2px solid lightgrey;
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+  }
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-top:50px;
+   
+  }
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+.btn-group button:hover {
+    background-color: #2CADAD;
+  }
+.container{
+    text-align: center;
+    margin-top:300px;
+}
